@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# datepage returns raw date string like this: "20170101 21:00"
 /usr/bin/curl --silent http://www.example.com/datepage > date.txt
 
 d=$(<date.txt)
